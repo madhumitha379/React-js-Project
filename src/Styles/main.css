@@ -1,0 +1,43 @@
+body {
+  font-family: Arial;
+  margin: 0;
+  background-color: #f4f4f4;
+}
+
+.navbar {
+  background: #1e88e5;
+  color: white;
+  padding: 15px;
+}
+
+.dashboard {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.dashboard button {
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+.classroom {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 20px;
+  padding: 20px;
+}
+
+.videoPanel {
+  background: white;
+  padding: 20px;
+}
+
+.chatbox {
+  background: white;
+  padding: 20px;
+}
+
+.participants {
+  background: white;
+  padding: 20px;
+}
